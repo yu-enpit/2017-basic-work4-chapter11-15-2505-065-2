@@ -32,7 +32,7 @@ public class DiaryListFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mRealm = Realm.getDefaultInstance();
+        mRealm = mRealm.getDefaultInstance();
     }
 
     @Override

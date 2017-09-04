@@ -1,6 +1,5 @@
 package com.example.yu_enpit.mydiary;
 
-import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,6 +7,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
