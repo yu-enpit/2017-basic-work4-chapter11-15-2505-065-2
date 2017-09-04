@@ -25,6 +25,7 @@ import io.realm.Realm;
 import static android.app.Activity.RESULT_OK;
 
 
+
 public class InputDiaryFragment extends Fragment {
     private static final String DIARY_ID = "DIARY_ID";
     private static final int REQUEST_CODE = 1;
