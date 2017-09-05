@@ -25,6 +25,7 @@ import io.realm.Realm;
 import static android.app.Activity.RESULT_OK;
 
 
+
 public class InputDiaryFragment extends Fragment {
     private static final String DIARY_ID = "DIARY_ID";
     private static final int REQUEST_CODE = 1;
@@ -152,7 +153,7 @@ public class InputDiaryFragment extends Fragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == REQUEST_CODE && requestCode == RESULT_OK) {
+        if(requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
 
             Uri uri = (data == null) ? null : data.getData();
             if(uri != null) {

@@ -68,8 +68,8 @@ public class DiaryRealmAdapter extends RealmRecyclerViewAdapter<Diary,
     }
 
     @Override
-    public void onBindViewHolder(DiaryViewHolder holder, int postion) {
-        Diary diary = getData().get(postion);
+    public void onBindViewHolder(DiaryViewHolder holder, int position) {
+        Diary diary = getData().get(position);
         holder.title.setText(diary.title);
         holder.bodyText.setText(diary.bodyText);
         holder.date.setText(diary.date);
